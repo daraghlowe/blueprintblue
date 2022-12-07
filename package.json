@@ -4,11 +4,12 @@
   "private": false,
   "scripts": {
     "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "lint": "next lint",
     "clean": "rimraf .next node_modules",
     "generate": "gqty generate",
-    "format": "prettier --write 'src/**/*.{js,jsx,md,mdx,css,scss}'",
-    "format:check": "prettier --check 'src/**/*.{js,jsx,md,mdx,css,scss}'"
+    "wpe-build": "next build",
   },
   "dependencies": {
     "@faustjs/core": "^0.15.2",
